@@ -1,6 +1,7 @@
 # Lesson
 
-Lesson for @nukemenukeme by @yusukeshibata.
+Lesson for @nukemenukeme by @yusukeshibata.  
+プログラムを書いたことのないnukemenukemeにプログラムの楽しさ、書き方、思想を伝えるためのプロジェクト。
 
 ## Flow
 
@@ -11,4 +12,4 @@ Lesson for @nukemenukeme by @yusukeshibata.
 5. コメントに従ってnukemenukemeが修正する
 6. たまにyusukeshibataがこうしたらいいんじゃない？っていうのをpullrequestする
 
-
+Written by @yusukeshibata
