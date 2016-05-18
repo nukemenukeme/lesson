@@ -48,7 +48,7 @@ sum(12,24)
 		matchBrackets: true
 	});
 	function run() {
-		var result = eval(document.getElementById('source').value)
+		var result = eval(editor.getValue())
 		document.getElementById('result').innerHTML = result
 	}
 	document.addEventListener("DOMContentLoaded",run)
