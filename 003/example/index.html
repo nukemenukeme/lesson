@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body {
+				margin:20px;
+			}
+			body,#source,#result {
+				font-family:monaco,monospace;
+				font-size:14px;
+			}
+			#run {
+				font-size:18px;
+				margin-bottom:20px;
+			}
+			#source {
+				box-sizing:border-box;
+				width:100%;
+				height:400px;
+				padding:10px;
+				margin-bottom:20px;
+			}
+			#result {
+				box-sizing:border-box;
+				background:#eee;
+				padding:10px;
+				width:100%;
+				min-height:120px;
+				margin-bottom:20px;
+			}
+		</style>
+	</head>
+	<body>
+
+<button id="run" onclick="run()">Run</button>
+<textarea id="source">
+// source here
+function sum(a,b) {
+	return a+b
+}
+
+// maybe result=36
+sum(12,24)
+</textarea>
+<div id="result"></div>
+<script>
+	function run() {
+		var result = eval(document.getElementById('source').value)
+		document.getElementById('result').innerHTML = result
+	}
+	document.addEventListener("DOMContentLoaded",run)
+</script>
+
+	</body>
+</html>
