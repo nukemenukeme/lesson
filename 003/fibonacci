@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.14.2/codemirror.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.14.2/codemirror.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.14.2/mode/javascript/javascript.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.14.2/addon/edit/matchbrackets.js"></script>
+		<style>
+			body {
+				margin:0;
+				padding:0;
+			}
+			body,#source,#result {
+				font-family:monaco,monospace;
+				font-size:14px;
+			}
+			button {
+				font-size:18px;
+			}
+			#run {
+				border-bottom:2px solid black;
+			}
+			#result {
+				border-top:2px solid black;
+				box-sizing:border-box;
+				padding:10px;
+				width:100%;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div id="run"><button onclick="run()">Run</button></div>
+<textarea id="source">
+var fib='0\n';
+    fib+='1\n';
+
+for(var i=0, before=0, tmp, after=1; i<50;i++){
+  fib+=(before+after)+'\n';
+  tmp=after;
+  after+=before;
+  before=tmp;
+}
+
+document.writeln(fib);
+// Fibonacci
+// http://home.wi-wi.jp/lab/006/
+</textarea>
+<div id="result"></div>
+<script>
+	var editor = CodeMirror.fromTextArea(document.getElementById('source'), {
+		lineNumbers: true,
+		mode: "text/javascript",
+		matchBrackets: true
+	});
+	function run() {
+		var result = eval(editor.getValue())
+		document.getElementById('result').innerHTML = result
+	}
+	document.addEventListener("DOMContentLoaded",run)
+</script>
+
+	</body>
+</html>
