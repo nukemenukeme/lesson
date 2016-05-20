@@ -37,7 +37,7 @@ function check()
 	txt = document.myFORM.BANGOU.value;
 	data1 = txt.match(/^[0-9-]{6,9}$|^[0-9-]{12}$/);
 	data2 = txt.match(/^\d{1,4}-\d{4}$|^\d{2,5}-\d{1,4}-\d{4}$/);
-	if(!data1 && !data2) alert("電話番号が不正です");
+	if(!data1 && !data2) alert("This is not phone number");
 }
 
 // Phone
