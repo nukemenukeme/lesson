@@ -33,22 +33,12 @@
 		<div id="run"><button onclick="run()">Run</button></div>
 <textarea id="source">
 // source here
-var i = 2;
-while (i < 100) {
-  var j = 2;
-  var isPrime = true;
-  while (j < i) {
-    if (i % j == 0) {
-      isPrime = false;
-      break;
-    }
-    j = j + 1;
-  }
-  if (isPrime) {
-    document.write(i + "<br />");
-  }
-  i++;
+function sum(a,b) {
+	return a+b
 }
+
+// maybe result=36
+sum(18,24)
 </textarea>
 <div id="result"></div>
 <script>
