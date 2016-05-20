@@ -32,19 +32,21 @@
 
 		<div id="run"><button onclick="run()">Run</button></div>
 <textarea id="source">
-var fib='0\n';
-    fib+='1\n';
+var _fibs = [0, 1];
 
-for(var i=0, before=0, tmp, after=1; i<50;i++){
-  fib+=(before+after)+'\n';
-  tmp=after;
-  after+=before;
-  before=tmp;
+function fib(n) {
+  for(var i = _fibs.length; i <= n; i++){
+    _fibs[i] = _fibs[i-1] + _fibs[i-2];
+  }
 }
 
-document.writeln(fib);
-// Fibonacci
-// http://home.wi-wi.jp/lab/006/
+function fibs(n) {
+  fib(n);
+  return _fibs.slice(0, n + 1);
+}
+
+fibs(10)
+// http://hagetak.hatenablog.com/entry/2015/04/30/102810
 </textarea>
 <div id="result"></div>
 <script>
