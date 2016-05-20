@@ -32,21 +32,18 @@
 
 		<div id="run"><button onclick="run()">Run</button></div>
 <textarea id="source">
-var i = 2;
-while (i < 100) {
-  var j = 2;
+function isPrime(v) {
   var isPrime = true;
-  while (j < i) {
-    if (i % j == 0) {
+  for(var j=2;j<v;j++) {
+    if (v % j == 0) {
       isPrime = false;
       break;
     }
-    j = j + 1;
   }
-  if (isPrime) {
-    document.write(i + "<br />");
-  }
-  i++;
+  return isPrime
+}
+while(i < 100) {
+  if(isPrime(i)) document.write(i+'<br />')
 }
 // Prime
 // http://blog.c--v.net/2006/09/05/2
