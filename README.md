@@ -1,15 +1,12 @@
 # Lesson
 
-Lesson for @nukemenukeme by @yusukeshibata.  
-プログラムを書いたことのないnukemenukemeにプログラムの楽しさ、書き方、思想を伝えるためのプロジェクト。
+ヌケメくんがプログラムを習得するためのrepository.
 
 ## Flow
 
-1. lessonのディレクトリをyusukeshibataが新しく作り `001/README.md` に課題を出す 
-2. nukemenukemeがprogramを書く
+1. lessonのディレクトリを @yusukeshibata が新しく作り `001/README.md` に課題を出す 
+2. @nukemenukeme がprogramを書く
 3. 何をしたかを書いてcommitする
-4. yusukeshibataがそれに対してコメントする
-5. コメントに従ってnukemenukemeが修正する
-6. たまにyusukeshibataがこうしたらいいんじゃない？っていうのをpullrequestする
-
-Written by @yusukeshibata
+4. @yusukeshibata がそれに対してコメントする
+5. コメントに従って @nukemenukeme が修正する
+6. たまに @yusukeshibata がこうしたらいいんじゃない？っていうのをpullrequestする
