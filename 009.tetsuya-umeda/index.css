@@ -25,20 +25,7 @@ h1 {
   font-size: 18px;
   font-weight: normal;
 }
-.image {
-  line-height: 2em;
-  width:50%;
-  float: left;
-  text-align: right;
-}
-.image-panel {
-  margin: 20px 20px;
-}
-img.7ships
-{
-  width: 100%;
-  max-width: 640px;
-}
+
 @media (max-width:640px) {
   .text,.image {
     width:100%;
