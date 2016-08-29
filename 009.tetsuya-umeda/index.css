@@ -1,0 +1,52 @@
+body {
+  letter-spacing: 0.03em;
+  margin:0;
+  background: white;
+  font-family: "yugothic","yu gothic",sans-serif;
+  font-size: 14px;
+}
+
+.text {
+  width: 50%;
+  font-size:14px;
+  line-height: 30px;
+  float:left;
+  text-align: left;
+}
+.text-body {
+  padding:40px 36px;
+}
+p {
+  margin: 0;
+}
+h1 {
+  margin:0 0 40px;
+  line-height: 1em;
+  font-size: 18px;
+  font-weight: normal;
+}
+.image {
+  line-height: 2em;
+  width:50%;
+  float: left;
+  text-align: right;
+}
+.image-panel {
+  margin: 20px 20px;
+}
+img.7ships
+{
+  width: 100%;
+  max-width: 640px;
+}
+@media (max-width:640px) {
+  .text,.image {
+    width:100%;
+  }
+}
+a {
+  color:black;
+}
+a:hover {
+  text-decoration:none;
+}
