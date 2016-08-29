@@ -25,6 +25,9 @@ h1 {
   font-size: 18px;
   font-weight: normal;
 }
+main-event {
+  color:#d3d3d3
+}
 
 @media (max-width:640px) {
   .text,.image {
