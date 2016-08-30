@@ -28,6 +28,9 @@ h1 {
 .main-event {
   color:#d3d3d3
 }
+.title-section {
+  color:#d3d3d3
+}
 
 @media (max-width:640px) {
   .text,.image {
@@ -36,6 +39,7 @@ h1 {
 }
 a {
   color:black;
+  text-decoration: underline;
 }
 a:hover {
   text-decoration:none;
