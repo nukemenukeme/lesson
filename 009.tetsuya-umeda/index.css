@@ -39,7 +39,7 @@ h1 {
 }
 a {
   color:black;
-  text-decoration-line: underline;
+  text-decoration: overline;
 }
 a:hover {
   text-decoration:none;
