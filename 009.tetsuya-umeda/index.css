@@ -34,6 +34,9 @@ h1 {
 .credits {
   margin-top: 20px;
 }
+.chishima {
+  max-width: 120px;
+}
 
 @media (max-width:640px) {
   .text,.image {
