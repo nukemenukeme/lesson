@@ -32,7 +32,7 @@ h1 {
   color:#d3d3d3
 }
 .credits {
-  margin-top: auto;
+  margin-top: 40px;
 }
 
 @media (max-width:640px) {
