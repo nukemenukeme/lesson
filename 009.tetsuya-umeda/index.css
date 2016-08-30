@@ -31,6 +31,9 @@ h1 {
 .title-section {
   color:#d3d3d3
 }
+.credits {
+  margin-top: auto;
+}
 
 @media (max-width:640px) {
   .text,.image {
