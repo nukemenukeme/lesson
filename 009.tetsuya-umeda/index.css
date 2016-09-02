@@ -25,8 +25,9 @@ h1 {
   font-size: 18px;
   font-weight: normal;
 }
-.hd-level-2cx {
+.hd-level-2 {
   word-wrap: break-word;
+  text-align: left;
 }
 .main-event {
   color:#d3d3d3
