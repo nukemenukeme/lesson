@@ -26,6 +26,7 @@ h1 {
   font-weight: normal;
 }
 .hd-level-2 {
+  width: 40%;
   word-wrap: break-word;
   text-align: left;
 }
