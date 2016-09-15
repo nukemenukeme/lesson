@@ -7,7 +7,7 @@ body {
 }
 
 .text {
-  width: 50%;
+  width: 100%;
   font-size:14px;
   line-height: 30px;
   float:left;
@@ -20,7 +20,7 @@ p {
   margin: 0;
 }
 h1 {
-  margin:0 0 40px;
+  margin:0 0 30px;
   line-height: 1em;
   font-size: 18px;
   color:#303030
@@ -29,25 +29,14 @@ h1 {
 .hd-level-2 {
   word-wrap: break-word;
   color:#004dff
+  margin:0 0 30px;
 }
 .main-event {
   color:#004dff
 }
-.title-section {
-  color:#004dff
-}
-.credits {
-  margin-top: 20px;
-}
-
-@media (max-width:640px) {
-  .text,.image {
-    width:100%;
-  }
-}
 a {
   color:#004dff;
-  text-decoration: underline;;
+  text-decoration: underline;
 }
 a:hover {
   text-decoration:none;
