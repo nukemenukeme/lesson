@@ -35,7 +35,7 @@ h1 {
 }
 
 .credits {
-  margin-top: 20px;
+  margin: 20px;
   float: center;
   text-align: center;
 }
@@ -43,19 +43,19 @@ h1 {
 .mesena {
  margin: 20px;
  max-width: 300px;
- max-height: 120px;
+ max-height: 100px;
 }
 
 .chishima {
-  margin-left: 20px;
+  margin: 20px;
   max-width: 300px;
-  max-height: 120px;
+  max-height: 100px;
 }
 
 .artssupport {
-  margin-left: 20px;
+  margin: 20px;
   max-width: 300px;
-  max-height: 120px;
+  max-height: 100px;
 }
 
 
