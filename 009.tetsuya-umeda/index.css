@@ -42,18 +42,21 @@ h1 {
 
 .mesena {
  margin: 20px;
+ margin-top: 0px;
  max-width: 300px;
  max-height: 100px;
 }
 
 .chishima {
   margin: 20px;
+  margin-top: 0px;
   max-width: 300px;
   max-height: 100px;
 }
 
 .artssupport {
   margin: 20px;
+  margin-top: 0px;
   max-width: 300px;
   max-height: 100px;
 }
