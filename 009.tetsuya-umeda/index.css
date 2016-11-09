@@ -30,6 +30,10 @@ h1 {
   word-wrap: break-word;
 }
 
+.table {
+  max-width: 70%;
+}
+
 .credits {
   margin-top: 0px;
   float: center;
