@@ -30,6 +30,33 @@ h1 {
   word-wrap: break-word;
 }
 
+#modal-content{
+	width:50%;
+	margin:1.5em auto 0;
+	padding:10px 20px;
+	border:2px solid #aaa;
+	background:#fff;
+	z-index:2;
+}
+
+.modal-p{
+	margin-top:1em;
+}
+
+.modal-p:first-child{
+	margin-top:0;
+}
+
+.button-link{
+	color:#00f;
+	text-decoration:underline;
+}
+
+.button-link:hover{
+	cursor:pointer;
+	color:#f00;
+}
+
 section table { width: 100%; }
 section th, section td  { padding: 10px; border: 1px solid #ddd; }
 section th  { background: #f4f4f4; }
