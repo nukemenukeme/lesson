@@ -30,8 +30,49 @@ h1 {
   word-wrap: break-word;
 }
 
+section table { width: 100%; }
+section th, section td  { padding: 10px; border: 1px solid #ddd; }
+section th  { background: #f4f4f4; }
+
+/*----------------------------------------------------
+  .demo02
+----------------------------------------------------*/
+.demo02 th  { width: 13%; }
+.demo02 td  { text-align: center; }
+.demo02 td:first-child  { text-align: left; }
+@media only screen and (max-width: 800px) {
+  .demo02 {
+    display: block;
+    width: 100%;
+    margin: 0 -10px;
+  }
+  .demo02 thead{
+    display: block;
+    float: left;
+    overflow-x:scroll;
+  }
+  .demo02 tbody{
+    display: block;
+    width: auto;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .demo02 th{
+    display: block;
+    width:auto;
+  }
+  .demo02 tbody tr{
+    display: inline-block;
+    margin: 0 -3px;
+  }
+  .demo02 td{
+    display: block;
+  }
+}
+
 .table {
   max-width: 70%;
+  display: block;
 }
 
 .credits {
