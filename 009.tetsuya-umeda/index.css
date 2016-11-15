@@ -1,76 +1,76 @@
 body {
-  letter-spacing: 0.03em;
-  margin:0;
-  background: white;
-  font-family: "yugothic","yu gothic",sans-serif;
-  font-size: 14px;
+    letter-spacing: 0.03em;
+    margin: 0;
+    background: white;
+    font-family: "yugothic", "yu gothic", sans-serif;
+    font-size: 14px;
 }
-.modal {
-  position: fixed;
-  padding-top: 100px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  background: rgba(255,255,255,0.8);
+#modal {
+    position: fixed;
+    padding-top: 100px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    display: none;
 }
-
+body.modal-open #modal {
+    display: block;
+}
 .text {
-  width: 100%;
-  font-size:14px;
-  line-height: 30px;
-  float:center;
-  text-align: center;
+    width: 100%;
+    font-size: 14px;
+    line-height: 30px;
+    float: center;
+    text-align: center;
 }
 .text-body {
-  padding:40px 36px;
+    padding: 40px 36px;
 }
 .docs {
-  width: 100%;
-  height: 100%;
-  float: center;
+    width: 100%;
+    height: 100%;
+    float: center;
 }
 p {
-  margin: 0;
+    margin: 0;
 }
 h1 {
-  margin:0 0 40px;
-  line-height: 1em;
-  font-size: 18px;
-  font-weight: normal;
+    margin: 0 0 40px;
+    line-height: 1em;
+    font-size: 18px;
+    font-weight: normal;
 }
 .hd-level-2 {
-  word-wrap: break-word;
+    word-wrap: break-word;
 }
 .main-event {
-  color:#d3d3d3
+    color: #d3d3d3
 }
 .title-section {
-  color:#d3d3d3
+    color: #d3d3d3
 }
 .credits {
-  margin-top: 10px;
+    margin-top: 10px;
     text-align: center;
-
 }
 .chishima {
-  max-width: 300px;
-
+    max-width: 300px;
 }
-
 @media (max-width:1640px) {
-  .text,.image {
-    width:100%;
-  }
+    .text, .image {
+        width: 100%;
+    }
 }
 a {
-  color:black;
-  text-decoration: overline;
+    color: black;
+    text-decoration: overline;
 }
 a:hover {
-  text-decoration:none;
+    text-decoration: none;
 }
-
 table {
-   table-layout: fixed;
-   width: 330px;
+    table-layout: fixed;
+    width: 330px;
 }
