@@ -1,1 +1,23 @@
-test
+body {
+  letter-spacing: 0.03em;
+  margin:0;
+  background: white;
+  font-family: "yugothic","yu gothic",sans-serif;
+  font-size: 14px;
+}
+
+.ust-a {
+  float: left;
+}
+
+.ust-b {
+  float: right;
+}
+
+.ust-c {
+  float: left;
+}
+
+.ust-d {
+  float: right;
+}
