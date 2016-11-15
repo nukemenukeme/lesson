@@ -29,6 +29,10 @@ h1 {
 .hd-level-2 {
   word-wrap: break-word;
 }
+.img {
+  max-width: 50%;
+  maxhight: 50%;
+}
 
 /*
 #modal-content{
