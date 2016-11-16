@@ -8,14 +8,10 @@ body {
 
 .ust-a {
   float: left;
-  max-width: 50%;
-  height: 100%;
 }
 
 .ust-b {
   float: right;
-  max-width: 50%;
-  height: 100%;
 }
 
 .ust-c {
