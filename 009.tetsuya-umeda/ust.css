@@ -9,10 +9,11 @@ body {
 .ust-a {
   float: left;
   max-width: 50%;
+  height: 100%;
 }
 
 .ust-b {
-  float: left;
+  float: right;
   max-width: 50%;
   height: 100%;
 }
